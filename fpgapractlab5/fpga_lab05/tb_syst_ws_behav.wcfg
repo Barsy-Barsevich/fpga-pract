@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_syst_ws_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_syst_ws" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="425333333fs"></ZoomStartTime>
+      <ZoomEndTime time="550933334fs"></ZoomEndTime>
+      <Cursor1Time time="530000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="logic" fp_name="/tb_syst_ws/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_syst_ws/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_syst_ws/x1_i">
+      <obj_property name="ElementShortName">x1_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">x1_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_syst_ws/x2_i">
+      <obj_property name="ElementShortName">x2_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">x2_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_syst_ws/x3_i">
+      <obj_property name="ElementShortName">x3_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">x3_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_syst_ws/y1_o">
+      <obj_property name="ElementShortName">y1_o[18:0]</obj_property>
+      <obj_property name="ObjectShortName">y1_o[18:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_syst_ws/y2_o">
+      <obj_property name="ElementShortName">y2_o[18:0]</obj_property>
+      <obj_property name="ObjectShortName">y2_o[18:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_syst_ws/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>

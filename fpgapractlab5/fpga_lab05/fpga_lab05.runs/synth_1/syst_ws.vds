@@ -1,0 +1,364 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu May 28 14:09:28 2026
+# Process ID: 18758
+# Current directory: /home/barsievich/fpga_lab05/fpga_lab05.runs/synth_1
+# Command line: vivado -log syst_ws.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source syst_ws.tcl
+# Log file: /home/barsievich/fpga_lab05/fpga_lab05.runs/synth_1/syst_ws.vds
+# Journal file: /home/barsievich/fpga_lab05/fpga_lab05.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source syst_ws.tcl -notrace
+Command: synth_design -top syst_ws -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18816 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1258.383 ; gain = 79.918 ; free physical = 6029 ; free virtual = 48736
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'syst_ws' [/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_ws.sv:1]
+	Parameter W11 bound to: 8'b00000010 
+	Parameter W12 bound to: 8'b00000011 
+	Parameter W13 bound to: 8'b00000100 
+	Parameter W21 bound to: 8'b00000101 
+	Parameter W22 bound to: 8'b00000110 
+	Parameter W23 bound to: 8'b00000111 
+	Parameter W_WIDTH bound to: 8 - type: integer 
+	Parameter X_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'syst_node' [/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_node.sv:1]
+	Parameter W_WIDTH bound to: 8 - type: integer 
+	Parameter X_WIDTH bound to: 8 - type: integer 
+	Parameter SI_WIDTH bound to: 1 - type: integer 
+	Parameter SO_WIDTH bound to: 17 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'syst_node' (1#1) [/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_node.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'syst_node__parameterized0' [/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_node.sv:1]
+	Parameter W_WIDTH bound to: 8 - type: integer 
+	Parameter X_WIDTH bound to: 8 - type: integer 
+	Parameter SI_WIDTH bound to: 17 - type: integer 
+	Parameter SO_WIDTH bound to: 18 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'syst_node__parameterized0' (1#1) [/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_node.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'syst_node__parameterized1' [/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_node.sv:1]
+	Parameter W_WIDTH bound to: 8 - type: integer 
+	Parameter X_WIDTH bound to: 8 - type: integer 
+	Parameter SI_WIDTH bound to: 18 - type: integer 
+	Parameter SO_WIDTH bound to: 19 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'syst_node__parameterized1' (1#1) [/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_node.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'syst_ws' (2#1) [/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_ws.sv:1]
+WARNING: [Synth 8-3917] design syst_ws has port y1_o[18] driven by constant 0
+WARNING: [Synth 8-3917] design syst_ws has port y2_o[18] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1303.008 ; gain = 124.543 ; free physical = 6041 ; free virtual = 48749
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1303.008 ; gain = 124.543 ; free physical = 6039 ; free virtual = 48747
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1303.008 ; gain = 124.543 ; free physical = 6039 ; free virtual = 48747
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/barsievich/fpga_lab05/fpga_lab05.srcs/constrs_1/new/clk.xdc]
+Finished Parsing XDC File [/home/barsievich/fpga_lab05/fpga_lab05.srcs/constrs_1/new/clk.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1675.859 ; gain = 0.000 ; free physical = 5878 ; free virtual = 48585
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1675.859 ; gain = 497.395 ; free physical = 5954 ; free virtual = 48661
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1675.859 ; gain = 497.395 ; free physical = 5954 ; free virtual = 48661
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1675.859 ; gain = 497.395 ; free physical = 5955 ; free virtual = 48663
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1675.859 ; gain = 497.395 ; free physical = 5955 ; free virtual = 48663
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               19 Bit    Registers := 2     
+	               18 Bit    Registers := 2     
+	               17 Bit    Registers := 2     
+	                8 Bit    Registers := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module syst_node 
+Detailed RTL Component Info : 
++---Registers : 
+	               17 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+Module syst_node__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               18 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+Module syst_node__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	               19 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-6014] Unused sequential element node_13/psumm_ff_reg was removed.  [/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_node.sv:26]
+WARNING: [Synth 8-6014] Unused sequential element node_13/x_ff_reg was removed.  [/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_node.sv:33]
+WARNING: [Synth 8-6014] Unused sequential element node_21/x_ff_reg was removed.  [/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_node.sv:33]
+WARNING: [Synth 8-6014] Unused sequential element node_22/x_ff_reg was removed.  [/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_node.sv:33]
+WARNING: [Synth 8-6014] Unused sequential element node_23/psumm_ff_reg was removed.  [/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_node.sv:26]
+WARNING: [Synth 8-6014] Unused sequential element node_23/x_ff_reg was removed.  [/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_node.sv:33]
+WARNING: [Synth 8-3917] design syst_ws has port y1_o[18] driven by constant 0
+WARNING: [Synth 8-3917] design syst_ws has port y2_o[18] driven by constant 0
+WARNING: [Synth 8-3331] design syst_ws has unconnected port x3_i[7]
+WARNING: [Synth 8-3331] design syst_ws has unconnected port x3_i[6]
+WARNING: [Synth 8-3331] design syst_ws has unconnected port x3_i[5]
+WARNING: [Synth 8-3331] design syst_ws has unconnected port x3_i[4]
+WARNING: [Synth 8-3331] design syst_ws has unconnected port x3_i[3]
+WARNING: [Synth 8-3331] design syst_ws has unconnected port x3_i[2]
+WARNING: [Synth 8-3331] design syst_ws has unconnected port x3_i[1]
+WARNING: [Synth 8-3331] design syst_ws has unconnected port x3_i[0]
+INFO: [Synth 8-3886] merging instance 'node_11/x_ff_reg[0]' (FDC) to 'node_11/psumm_ff_reg[1]'
+INFO: [Synth 8-3886] merging instance 'node_11/x_ff_reg[1]' (FDC) to 'node_11/psumm_ff_reg[2]'
+INFO: [Synth 8-3886] merging instance 'node_11/x_ff_reg[2]' (FDC) to 'node_11/psumm_ff_reg[3]'
+INFO: [Synth 8-3886] merging instance 'node_11/x_ff_reg[3]' (FDC) to 'node_11/psumm_ff_reg[4]'
+INFO: [Synth 8-3886] merging instance 'node_11/x_ff_reg[4]' (FDC) to 'node_11/psumm_ff_reg[5]'
+INFO: [Synth 8-3886] merging instance 'node_11/x_ff_reg[5]' (FDC) to 'node_11/psumm_ff_reg[6]'
+INFO: [Synth 8-3886] merging instance 'node_11/x_ff_reg[6]' (FDC) to 'node_11/psumm_ff_reg[7]'
+INFO: [Synth 8-3886] merging instance 'node_11/x_ff_reg[7]' (FDC) to 'node_11/psumm_ff_reg[8]'
+INFO: [Synth 8-3886] merging instance 'node_21/psumm_ff_reg[11]' (FDC) to 'node_21/psumm_ff_reg[16]'
+INFO: [Synth 8-3886] merging instance 'node_21/psumm_ff_reg[12]' (FDC) to 'node_21/psumm_ff_reg[16]'
+INFO: [Synth 8-3886] merging instance 'node_21/psumm_ff_reg[13]' (FDC) to 'node_21/psumm_ff_reg[16]'
+INFO: [Synth 8-3886] merging instance 'node_21/psumm_ff_reg[14]' (FDC) to 'node_21/psumm_ff_reg[16]'
+INFO: [Synth 8-3886] merging instance 'node_21/psumm_ff_reg[15]' (FDC) to 'node_21/psumm_ff_reg[16]'
+INFO: [Synth 8-3886] merging instance 'node_21/psumm_ff_reg[16]' (FDC) to 'node_11/psumm_ff_reg[16]'
+INFO: [Synth 8-3886] merging instance 'node_11/psumm_ff_reg[0]' (FDC) to 'node_11/psumm_ff_reg[16]'
+INFO: [Synth 8-3886] merging instance 'node_11/psumm_ff_reg[9]' (FDC) to 'node_11/psumm_ff_reg[16]'
+INFO: [Synth 8-3886] merging instance 'node_11/psumm_ff_reg[10]' (FDC) to 'node_11/psumm_ff_reg[16]'
+INFO: [Synth 8-3886] merging instance 'node_11/psumm_ff_reg[11]' (FDC) to 'node_11/psumm_ff_reg[16]'
+INFO: [Synth 8-3886] merging instance 'node_11/psumm_ff_reg[12]' (FDC) to 'node_11/psumm_ff_reg[16]'
+INFO: [Synth 8-3886] merging instance 'node_11/psumm_ff_reg[13]' (FDC) to 'node_11/psumm_ff_reg[16]'
+INFO: [Synth 8-3886] merging instance 'node_11/psumm_ff_reg[14]' (FDC) to 'node_11/psumm_ff_reg[16]'
+INFO: [Synth 8-3886] merging instance 'node_11/psumm_ff_reg[15]' (FDC) to 'node_11/psumm_ff_reg[16]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\node_11/psumm_ff_reg[16] )
+WARNING: [Synth 8-3332] Sequential element (node_12/psumm_ff_reg[17]) is unused and will be removed from module syst_ws.
+WARNING: [Synth 8-3332] Sequential element (node_12/psumm_ff_reg[16]) is unused and will be removed from module syst_ws.
+WARNING: [Synth 8-3332] Sequential element (node_12/psumm_ff_reg[15]) is unused and will be removed from module syst_ws.
+WARNING: [Synth 8-3332] Sequential element (node_12/psumm_ff_reg[14]) is unused and will be removed from module syst_ws.
+WARNING: [Synth 8-3332] Sequential element (node_12/psumm_ff_reg[13]) is unused and will be removed from module syst_ws.
+WARNING: [Synth 8-3332] Sequential element (node_12/psumm_ff_reg[12]) is unused and will be removed from module syst_ws.
+WARNING: [Synth 8-3332] Sequential element (node_12/psumm_ff_reg[11]) is unused and will be removed from module syst_ws.
+WARNING: [Synth 8-3332] Sequential element (node_22/psumm_ff_reg[17]) is unused and will be removed from module syst_ws.
+WARNING: [Synth 8-3332] Sequential element (node_22/psumm_ff_reg[16]) is unused and will be removed from module syst_ws.
+WARNING: [Synth 8-3332] Sequential element (node_22/psumm_ff_reg[15]) is unused and will be removed from module syst_ws.
+WARNING: [Synth 8-3332] Sequential element (node_22/psumm_ff_reg[14]) is unused and will be removed from module syst_ws.
+WARNING: [Synth 8-3332] Sequential element (node_22/psumm_ff_reg[13]) is unused and will be removed from module syst_ws.
+WARNING: [Synth 8-3332] Sequential element (node_22/psumm_ff_reg[12]) is unused and will be removed from module syst_ws.
+WARNING: [Synth 8-3332] Sequential element (node_11/psumm_ff_reg[16]) is unused and will be removed from module syst_ws.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:23 . Memory (MB): peak = 1675.859 ; gain = 497.395 ; free physical = 5935 ; free virtual = 48645
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 1675.859 ; gain = 497.395 ; free physical = 5811 ; free virtual = 48520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 1675.859 ; gain = 497.395 ; free physical = 5810 ; free virtual = 48520
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 1675.859 ; gain = 497.395 ; free physical = 5810 ; free virtual = 48519
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 1675.859 ; gain = 497.395 ; free physical = 5810 ; free virtual = 48519
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 1675.859 ; gain = 497.395 ; free physical = 5810 ; free virtual = 48519
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 1675.859 ; gain = 497.395 ; free physical = 5810 ; free virtual = 48519
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 1675.859 ; gain = 497.395 ; free physical = 5810 ; free virtual = 48519
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 1675.859 ; gain = 497.395 ; free physical = 5810 ; free virtual = 48519
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 1675.859 ; gain = 497.395 ; free physical = 5810 ; free virtual = 48519
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    15|
+|3     |LUT1   |     6|
+|4     |LUT2   |    38|
+|5     |FDCE   |    50|
+|6     |IBUF   |    18|
+|7     |OBUF   |    38|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------+----------------------------+------+
+|      |Instance  |Module                      |Cells |
++------+----------+----------------------------+------+
+|1     |top       |                            |   166|
+|2     |  node_11 |syst_node                   |    14|
+|3     |  node_12 |syst_node__parameterized0   |    49|
+|4     |  node_21 |syst_node_0                 |    20|
+|5     |  node_22 |syst_node__parameterized0_1 |    26|
++------+----------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 1675.859 ; gain = 497.395 ; free physical = 5810 ; free virtual = 48519
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 30 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1675.859 ; gain = 124.543 ; free physical = 5865 ; free virtual = 48574
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 1675.859 ; gain = 497.395 ; free physical = 5865 ; free virtual = 48574
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 33 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 32 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:32 . Memory (MB): peak = 1675.859 ; gain = 497.477 ; free physical = 5863 ; free virtual = 48572
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/barsievich/fpga_lab05/fpga_lab05.runs/synth_1/syst_ws.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file syst_ws_utilization_synth.rpt -pb syst_ws_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1675.859 ; gain = 0.000 ; free physical = 5863 ; free virtual = 48573
+INFO: [Common 17-206] Exiting Vivado at Thu May 28 14:10:06 2026...

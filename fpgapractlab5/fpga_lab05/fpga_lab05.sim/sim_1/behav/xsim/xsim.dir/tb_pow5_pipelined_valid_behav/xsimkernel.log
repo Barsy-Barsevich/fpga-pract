@@ -1,0 +1,4 @@
+Running: xsim.dir/tb_pow5_pipelined_valid_behav/xsimk -simmode gui -wdb tb_pow5_pipelined_valid_behav.wdb -simrunnum 0 -socket 49656
+Design successfully loaded
+Design Loading Memory Usage: 42388 KB (Peak: 42388 KB)
+Design Loading CPU Usage: 0 ms

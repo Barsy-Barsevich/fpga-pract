@@ -1,0 +1,10 @@
+0.6
+2018.2
+Jun 14 2018
+20:07:38
+/home/barsievich/fpga_lab05/fpga_lab05.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/pow5_pipelined_valid.sv,1779963405,systemVerilog,,/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/tb_pow5_pipelined_valid.sv,,pow5_pipelined_valid,,,,,,,,
+/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_node.sv,1779966044,systemVerilog,,/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_ws.sv,,syst_node,,,,,,,,
+/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/syst_ws.sv,1779967640,systemVerilog,,/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/tb_syst_ws.sv,,syst_ws,,,,,,,,
+/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/tb_pow5_pipelined_valid.sv,1779965241,systemVerilog,,,,tb_pow5_pipelined_valid,,,,,,,,
+/home/barsievich/fpga_lab05/fpga_lab05.srcs/sources_1/new/tb_syst_ws.sv,1779967517,systemVerilog,,,,tb_syst_ws,,,,,,,,

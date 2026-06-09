@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../fpga_lab05.srcs/sources_1/new/pow5_pipelined_valid.sv" \
+"../../../../fpga_lab05.srcs/sources_1/new/tb_pow5_pipelined_valid.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

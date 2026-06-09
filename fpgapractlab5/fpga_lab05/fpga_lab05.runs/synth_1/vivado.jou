@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu May 28 14:09:28 2026
+# Process ID: 18758
+# Current directory: /home/barsievich/fpga_lab05/fpga_lab05.runs/synth_1
+# Command line: vivado -log syst_ws.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source syst_ws.tcl
+# Log file: /home/barsievich/fpga_lab05/fpga_lab05.runs/synth_1/syst_ws.vds
+# Journal file: /home/barsievich/fpga_lab05/fpga_lab05.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source syst_ws.tcl -notrace
