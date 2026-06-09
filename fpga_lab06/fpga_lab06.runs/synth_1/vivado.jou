@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu May 28 17:38:17 2026
+# Process ID: 7828
+# Current directory: /home/barsievich/fpga_lab06/fpga_lab06.runs/synth_1
+# Command line: vivado -log sum_of_quadrats.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sum_of_quadrats.tcl
+# Log file: /home/barsievich/fpga_lab06/fpga_lab06.runs/synth_1/sum_of_quadrats.vds
+# Journal file: /home/barsievich/fpga_lab06/fpga_lab06.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source sum_of_quadrats.tcl -notrace

@@ -1,0 +1,11 @@
+0.6
+2018.2
+Jun 14 2018
+20:07:38
+/home/barsievich/fpga_lab06/fpga_lab06.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+/home/barsievich/fpga_lab06/fpga_lab06.srcs/sources_1/new/podstava2.sv,1780915955,systemVerilog,,/home/barsievich/fpga_lab06/fpga_lab06.srcs/sources_1/new/simple_fifo.sv,,podstava2,,,,,,,,
+/home/barsievich/fpga_lab06/fpga_lab06.srcs/sources_1/new/simple_fifo.sv,1780917323,systemVerilog,,/home/barsievich/fpga_lab06/fpga_lab06.srcs/sources_1/new/tb_podstava2.sv,,simple_fifo,,,,,,,,
+/home/barsievich/fpga_lab06/fpga_lab06.srcs/sources_1/new/soq_2.sv,1780664839,systemVerilog,,/home/barsievich/fpga_lab06/fpga_lab06.srcs/sources_1/new/tb_sum_of_quadrats_1.sv,,sum_of_quadrats_2,,,,,,,,
+/home/barsievich/fpga_lab06/fpga_lab06.srcs/sources_1/new/sum_of_quadrats.sv,1780662996,systemVerilog,,/home/barsievich/fpga_lab06/fpga_lab06.srcs/sources_1/new/tb_sum_of_quadrats_1.sv,,sum_of_quadrats,,,,,,,,
+/home/barsievich/fpga_lab06/fpga_lab06.srcs/sources_1/new/tb_podstava2.sv,1780917685,systemVerilog,,,,tb_podstava2,,,,,,,,
+/home/barsievich/fpga_lab06/fpga_lab06.srcs/sources_1/new/tb_sum_of_quadrats_1.sv,1780664852,systemVerilog,,,,tb_sum_of_quadrats_1,,,,,,,,

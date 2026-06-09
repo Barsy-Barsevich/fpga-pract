@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../fpga_lab06_02.srcs/sources_1/new/axis_forkjoin_4x6.sv" \
+"../../../../fpga_lab06_02.srcs/sources_1/new/tb_axis_forkjoin_4x6.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

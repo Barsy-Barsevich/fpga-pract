@@ -1,0 +1,14 @@
+0.6
+2018.2
+Jun 14 2018
+20:07:38
+/home/barsievich/fpga_lab06_01/fpga_lab06_01.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/fifo.sv,1780918447,systemVerilog,,/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/stage1.sv,,fifo,,,,,,,,
+/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/stage1.sv,1780928441,systemVerilog,,/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/stage2.sv,,stage1,,,,,,,,
+/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/stage2.sv,1780928456,systemVerilog,,/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/stage3.sv,,stage2,,,,,,,,
+/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/stage3.sv,1780928468,systemVerilog,,/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/stage4.sv,,stage3,,,,,,,,
+/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/stage4.sv,1780928475,systemVerilog,,/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/stage5.sv,,stage4,,,,,,,,
+/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/stage5.sv,1780928481,systemVerilog,,/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/task2.sv,,stage5,,,,,,,,
+/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/task2.sv,1780929444,systemVerilog,,/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/tb_task2.sv,,task2,,,,,,,,
+/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/tb_fifo.sv,1780919466,systemVerilog,,,,tb_fifo,,,,,,,,
+/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/tb_task2.sv,1780928105,systemVerilog,,,,tb_task2,,,,,,,,

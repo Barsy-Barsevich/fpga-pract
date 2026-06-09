@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../../../../../../../opt/vivado/2025.2/data/rsb/busdef" \
+"../../../../true_dual_port_bram.srcs/sources_1/new/true_dual_port_bram.sv" \
+"../../../../true_dual_port_bram.srcs/sources_1/new/tb_true_dual_port_bram.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

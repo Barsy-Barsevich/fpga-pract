@@ -1,0 +1,17 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 7b06b89a452e4b59b3b55647b70a7403 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_podstava2_behav xil_defaultlib.tb_podstava2 xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 23 differs from formal bit length 16 for port data_o [/home/barsievich/fpga_lab06/fpga_lab06.srcs/sources_1/new/tb_podstava2.sv:22]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/barsievich/fpga_lab06/fpga_lab06.srcs/sources_1/new/podstava2.sv" Line 1. Module podstava2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/barsievich/fpga_lab06/fpga_lab06.srcs/sources_1/new/simple_fifo.sv" Line 1. Module simple_fifo(D_WIDTH=23) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.simple_fifo(D_WIDTH=23)
+Compiling module xil_defaultlib.podstava2
+Compiling module xil_defaultlib.tb_podstava2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_podstava2_behav

@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../fpga_lab08.srcs/sources_1/new/crc8.sv" \
+"../../../../fpga_lab08.srcs/sources_1/new/wrapper_crc8.sv" \
+"../../../../fpga_lab08.srcs/sources_1/new/tb_wrapper_crc8.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

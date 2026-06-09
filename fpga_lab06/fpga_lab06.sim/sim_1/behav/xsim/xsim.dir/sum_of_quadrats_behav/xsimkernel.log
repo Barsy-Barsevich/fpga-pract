@@ -1,0 +1,7 @@
+Running: xsim.dir/sum_of_quadrats_behav/xsimk -simmode gui -wdb sum_of_quadrats_behav.wdb -simrunnum 0 -socket 36785
+Design successfully loaded
+Design Loading Memory Usage: 42380 KB (Peak: 42380 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 124116 KB (Peak: 189652 KB)
+Simulation CPU Usage: 10 ms

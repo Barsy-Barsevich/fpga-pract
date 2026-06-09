@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../fpga_lab06_01.srcs/sources_1/new/fifo.sv" \
+"../../../../fpga_lab06_01.srcs/sources_1/new/stage1.sv" \
+"../../../../fpga_lab06_01.srcs/sources_1/new/stage2.sv" \
+"../../../../fpga_lab06_01.srcs/sources_1/new/stage3.sv" \
+"../../../../fpga_lab06_01.srcs/sources_1/new/stage4.sv" \
+"../../../../fpga_lab06_01.srcs/sources_1/new/stage5.sv" \
+"../../../../fpga_lab06_01.srcs/sources_1/new/task2.sv" \
+"../../../../fpga_lab06_01.srcs/sources_1/new/tb_task2.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

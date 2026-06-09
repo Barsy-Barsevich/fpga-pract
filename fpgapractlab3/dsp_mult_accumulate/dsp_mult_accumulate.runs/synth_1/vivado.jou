@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri Mar 13 12:26:19 2026
+# Process ID         : 27401
+# Current directory  : /home/victor/Documents/ComputerResearch/fpga_pract/dsp_mult_accumulate/dsp_mult_accumulate.runs/synth_1
+# Command line       : vivado -log dsp_mul_accumulate.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dsp_mul_accumulate.tcl
+# Log file           : /home/victor/Documents/ComputerResearch/fpga_pract/dsp_mult_accumulate/dsp_mult_accumulate.runs/synth_1/dsp_mul_accumulate.vds
+# Journal file       : /home/victor/Documents/ComputerResearch/fpga_pract/dsp_mult_accumulate/dsp_mult_accumulate.runs/synth_1/vivado.jou
+# Running On         : victor-pc
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency      : 3551.483 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16483 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20778 MB
+# Available Virtual  : 15130 MB
+#-----------------------------------------------------------
+source dsp_mul_accumulate.tcl -notrace

@@ -1,0 +1,11 @@
+0.6
+2018.2
+Jun 14 2018
+20:07:38
+/home/barsievich/fpga_lab08/fpga_lab08.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+/home/barsievich/fpga_lab08/fpga_lab08.srcs/sources_1/new/crc16_modbus.sv,1780329574,systemVerilog,,/home/barsievich/fpga_lab08/fpga_lab08.srcs/sources_1/new/wrapper_crc16_modbus.sv,,crc16_modbus,,,,,,,,
+/home/barsievich/fpga_lab08/fpga_lab08.srcs/sources_1/new/crc8.sv,1780319840,systemVerilog,,/home/barsievich/fpga_lab08/fpga_lab08.srcs/sources_1/new/wrapper_crc8.sv,,crc8,,,,,,,,
+/home/barsievich/fpga_lab08/fpga_lab08.srcs/sources_1/new/tb_wrapper_crc16_modbus.sv,1780328510,systemVerilog,,,,tb_wrapper_crc16_modbus,,,,,,,,
+/home/barsievich/fpga_lab08/fpga_lab08.srcs/sources_1/new/tb_wrapper_crc8.sv,1780325733,systemVerilog,,,,tb_wrapper_crc8,,,,,,,,
+/home/barsievich/fpga_lab08/fpga_lab08.srcs/sources_1/new/wrapper_crc16_modbus.sv,1780328439,systemVerilog,,/home/barsievich/fpga_lab08/fpga_lab08.srcs/sources_1/new/tb_wrapper_crc16_modbus.sv,,wrapper_crc16_modbus,,,,,,,,
+/home/barsievich/fpga_lab08/fpga_lab08.srcs/sources_1/new/wrapper_crc8.sv,1780327276,systemVerilog,,/home/barsievich/fpga_lab08/fpga_lab08.srcs/sources_1/new/tb_wrapper_crc8.sv,,wrapper_crc8,,,,,,,,

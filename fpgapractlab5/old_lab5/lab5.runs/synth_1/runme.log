@@ -1,0 +1,60 @@
+
+*** Running vivado
+    with args -log pow5_pipelined.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source pow5_pipelined.tcl
+
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Fri Apr 10 14:19:37 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source pow5_pipelined.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental /home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/utils_1/imports/synth_1/pow5_mult_single_cycle.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/utils_1/imports/synth_1/pow5_mult_single_cycle.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top pow5_pipelined -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18323
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2266.492 ; gain = 482.594 ; free physical = 6247 ; free virtual = 14916
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-2716] syntax error near '@' [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:29]
+ERROR: [Synth 8-2716] syntax error near '@' [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:55]
+ERROR: [Synth 8-8896] 'logic' is an unknown type [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:6]
+ERROR: [Synth 8-36] 'logic' is not declared [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:6]
+ERROR: [Synth 8-8896] 'logic' is an unknown type [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:7]
+ERROR: [Synth 8-36] 'logic' is not declared [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:7]
+ERROR: [Synth 8-8896] 'logic' is an unknown type [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:8]
+ERROR: [Synth 8-36] 'logic' is not declared [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:8]
+ERROR: [Synth 8-8896] 'logic' is an unknown type [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:9]
+ERROR: [Synth 8-36] 'logic' is not declared [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:9]
+ERROR: [Synth 8-8896] 'logic' is an unknown type [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:12]
+ERROR: [Synth 8-8896] 'logic' is an unknown type [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:14]
+ERROR: [Synth 8-8896] 'logic' is an unknown type [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:15]
+ERROR: [Synth 8-8896] 'logic' is an unknown type [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:16]
+ERROR: [Synth 8-8896] 'logic' is an unknown type [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:17]
+ERROR: [Synth 8-8896] 'logic' is an unknown type [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:19]
+ERROR: [Synth 8-8896] 'logic' is an unknown type [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:20]
+ERROR: [Synth 8-8896] 'logic' is an unknown type [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:21]
+ERROR: [Synth 8-8896] 'logic' is an unknown type [/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv:23]
+ERROR: [Synth 8-12188] Failed to read verilog '/home/victor/Documents/ComputerResearch/fpga_pract/lab5/lab5.srcs/sources_1/new/pow5_pipelined.sv'
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2349.430 ; gain = 565.531 ; free physical = 6167 ; free virtual = 14836
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+8 Infos, 0 Warnings, 0 Critical Warnings and 21 Errors encountered.
+synth_design failed
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2349.438 ; gain = 723.562 ; free physical = 6167 ; free virtual = 14836
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1767.355; main = 1479.863; forked = 287.492
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3343.672; main = 2349.434; forked = 994.238
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 10 14:19:57 2026...

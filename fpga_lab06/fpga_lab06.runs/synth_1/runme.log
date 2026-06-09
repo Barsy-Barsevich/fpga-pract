@@ -1,0 +1,327 @@
+
+*** Running vivado
+    with args -log sum_of_quadrats.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source sum_of_quadrats.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source sum_of_quadrats.tcl -notrace
+Command: synth_design -top sum_of_quadrats -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7839 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1258.383 ; gain = 79.918 ; free physical = 6565 ; free virtual = 49250
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'sum_of_quadrats' [/home/barsievich/fpga_lab06/fpga_lab06.srcs/sources_1/new/sum_of_quadrats.sv:1]
+	Parameter DATA_WIDTH bound to: 16 - type: integer 
+WARNING: [Synth 8-3848] Net output_ff in module/entity sum_of_quadrats does not have driver. [/home/barsievich/fpga_lab06/fpga_lab06.srcs/sources_1/new/sum_of_quadrats.sv:30]
+INFO: [Synth 8-6155] done synthesizing module 'sum_of_quadrats' (1#1) [/home/barsievich/fpga_lab06/fpga_lab06.srcs/sources_1/new/sum_of_quadrats.sv:1]
+WARNING: [Synth 8-3330] design sum_of_quadrats has an empty top module
+WARNING: [Synth 8-3917] design sum_of_quadrats has port a_ready_o driven by constant 1
+WARNING: [Synth 8-3917] design sum_of_quadrats has port b_ready_o driven by constant 1
+WARNING: [Synth 8-3917] design sum_of_quadrats has port c_ready_o driven by constant 1
+WARNING: [Synth 8-3917] design sum_of_quadrats has port output_valid_o driven by constant 1
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[33]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[32]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[31]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[30]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[29]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[28]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[27]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[26]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[25]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[24]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[23]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[22]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[21]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[20]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[19]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[18]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[17]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[16]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[15]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[14]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[13]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[12]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[11]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[10]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[9]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[8]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[7]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[6]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[5]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[4]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[3]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[2]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[1]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[0]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port clk_i
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port rst_i
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_i[15]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_i[14]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_i[13]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_i[12]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_i[11]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_i[10]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_i[9]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_i[8]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_i[7]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_i[6]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_i[5]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_i[4]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_i[3]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_i[2]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_i[1]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_i[0]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port a_valid_i
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_i[15]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_i[14]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_i[13]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_i[12]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_i[11]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_i[10]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_i[9]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_i[8]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_i[7]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_i[6]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_i[5]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_i[4]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_i[3]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_i[2]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_i[1]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_i[0]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port b_valid_i
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_i[15]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_i[14]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_i[13]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_i[12]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_i[11]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_i[10]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_i[9]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_i[8]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_i[7]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_i[6]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_i[5]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_i[4]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_i[3]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_i[2]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_i[1]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_i[0]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port c_valid_i
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_ready_i
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1303.008 ; gain = 124.543 ; free physical = 6577 ; free virtual = 49262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1303.008 ; gain = 124.543 ; free physical = 6576 ; free virtual = 49262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1311.012 ; gain = 132.547 ; free physical = 6575 ; free virtual = 49260
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1319.020 ; gain = 140.555 ; free physical = 6574 ; free virtual = 49260
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3330] design sum_of_quadrats has an empty top module
+WARNING: [Synth 8-3917] design sum_of_quadrats has port a_ready_o driven by constant 1
+WARNING: [Synth 8-3917] design sum_of_quadrats has port b_ready_o driven by constant 1
+WARNING: [Synth 8-3917] design sum_of_quadrats has port c_ready_o driven by constant 1
+WARNING: [Synth 8-3917] design sum_of_quadrats has port output_valid_o driven by constant 1
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[33]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[32]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[31]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[30]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[29]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[28]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[27]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[26]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[25]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[24]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[23]
+WARNING: [Synth 8-3331] design sum_of_quadrats has unconnected port output_o[22]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 1415.340 ; gain = 236.875 ; free physical = 6414 ; free virtual = 49101
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 1415.340 ; gain = 236.875 ; free physical = 6413 ; free virtual = 49100
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 1415.340 ; gain = 236.875 ; free physical = 6413 ; free virtual = 49100
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1415.340 ; gain = 236.875 ; free physical = 6412 ; free virtual = 49099
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1415.340 ; gain = 236.875 ; free physical = 6412 ; free virtual = 49099
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1415.340 ; gain = 236.875 ; free physical = 6412 ; free virtual = 49099
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1415.340 ; gain = 236.875 ; free physical = 6412 ; free virtual = 49099
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1415.340 ; gain = 236.875 ; free physical = 6412 ; free virtual = 49099
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1415.340 ; gain = 236.875 ; free physical = 6412 ; free virtual = 49099
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |OBUF  |     4|
+|2     |OBUFT |    34|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    38|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1415.340 ; gain = 236.875 ; free physical = 6412 ; free virtual = 49099
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 187 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1415.340 ; gain = 236.875 ; free physical = 6412 ; free virtual = 49099
+Synthesis Optimization Complete : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1415.348 ; gain = 236.875 ; free physical = 6412 ; free virtual = 49099
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+10 Infos, 111 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 1512.402 ; gain = 334.020 ; free physical = 6370 ; free virtual = 49057
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/barsievich/fpga_lab06/fpga_lab06.runs/synth_1/sum_of_quadrats.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file sum_of_quadrats_utilization_synth.rpt -pb sum_of_quadrats_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1536.414 ; gain = 0.000 ; free physical = 6370 ; free virtual = 49058
+INFO: [Common 17-206] Exiting Vivado at Thu May 28 17:38:44 2026...

@@ -1,0 +1,27 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 535f3c6af2b6446c91de191621dd9546 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_task2_behav xil_defaultlib.tb_task2 xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 23 differs from formal bit length 22 for port data_i [/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/task2.sv:87]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/task2.sv" Line 1. Module task2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/stage1.sv" Line 1. Module stage1(D_WIDTH_I=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/stage2.sv" Line 1. Module stage2(D_WIDTH_I=17) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/stage3.sv" Line 1. Module stage3(D_WIDTH_I=18) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/stage4.sv" Line 1. Module stage4(D_WIDTH_I=22) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/stage5.sv" Line 1. Module stage5(D_WIDTH_I=22) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/barsievich/fpga_lab06_01/fpga_lab06_01.srcs/sources_1/new/fifo.sv" Line 1. Module fifo(D_WIDTH=10,N=50) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.stage1(D_WIDTH_I=16)
+Compiling module xil_defaultlib.stage2(D_WIDTH_I=17)
+Compiling module xil_defaultlib.stage3(D_WIDTH_I=18)
+Compiling module xil_defaultlib.stage4(D_WIDTH_I=22)
+Compiling module xil_defaultlib.stage5(D_WIDTH_I=22)
+Compiling module xil_defaultlib.fifo(D_WIDTH=10,N=50)
+Compiling module xil_defaultlib.task2
+Compiling module xil_defaultlib.tb_task2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_task2_behav

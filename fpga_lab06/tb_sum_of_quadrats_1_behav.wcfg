@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_sum_of_quadrats_1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_sum_of_quadrats_1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="254400001fs"></ZoomEndTime>
+      <Cursor1Time time="33506000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject type="logic" fp_name="/tb_sum_of_quadrats_1/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sum_of_quadrats_1/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sum_of_quadrats_1/a_valid">
+      <obj_property name="ElementShortName">a_valid</obj_property>
+      <obj_property name="ObjectShortName">a_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sum_of_quadrats_1/b_valid">
+      <obj_property name="ElementShortName">b_valid</obj_property>
+      <obj_property name="ObjectShortName">b_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sum_of_quadrats_1/c_valid">
+      <obj_property name="ElementShortName">c_valid</obj_property>
+      <obj_property name="ObjectShortName">c_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sum_of_quadrats_1/out_valid">
+      <obj_property name="ElementShortName">out_valid</obj_property>
+      <obj_property name="ObjectShortName">out_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sum_of_quadrats_1/a_ready">
+      <obj_property name="ElementShortName">a_ready</obj_property>
+      <obj_property name="ObjectShortName">a_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sum_of_quadrats_1/b_ready">
+      <obj_property name="ElementShortName">b_ready</obj_property>
+      <obj_property name="ObjectShortName">b_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sum_of_quadrats_1/c_ready">
+      <obj_property name="ElementShortName">c_ready</obj_property>
+      <obj_property name="ObjectShortName">c_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sum_of_quadrats_1/out_ready">
+      <obj_property name="ElementShortName">out_ready</obj_property>
+      <obj_property name="ObjectShortName">out_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_sum_of_quadrats_1/a">
+      <obj_property name="ElementShortName">a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">a[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_sum_of_quadrats_1/b">
+      <obj_property name="ElementShortName">b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">b[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_sum_of_quadrats_1/c">
+      <obj_property name="ElementShortName">c[15:0]</obj_property>
+      <obj_property name="ObjectShortName">c[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_sum_of_quadrats_1/out">
+      <obj_property name="ElementShortName">out[33:0]</obj_property>
+      <obj_property name="ObjectShortName">out[33:0]</obj_property>
+   </wvobject>
+</wave_config>
